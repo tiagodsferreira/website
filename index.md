@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+---
+title: "R crash course"
+author: "Tiago Ferreira"
+date: "April, 2020"
+---
 
-You can use the [editor on GitHub](https://github.com/tiagodsferreira/website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## What is R?
+- Open-source statistical software  
+- Computational environment and programming language  
+- Tool for statistical analysis and data visualization  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## SPSS vs R
+- SPSS:  
+Easy to use (point-and-click)   
+Basic graphics   
+Limited statitiscal procedures   
+Inflexible programming   
 
-### Markdown
+- R:  
+More difficult to use (syntax-based)   
+Professional graphics    
+Unlimited statistical procedures   
+Flexible programming  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting and instaling R and RStudio
+R and RStudio are available for free download:  
+1. [Download R](http://cran.r-project.org/)    
+2. [Download RStudio](http://www.rstudio.org/)
 
-```markdown
-Syntax highlighted code block
+R and RStudio are compatible with the main OS's:  
+- PC  
+- MAC  
+- Linux
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## R environment
+```{r, echo = FALSE}
+knitr::include_graphics("C:/Users/tiago/Google Drive/FPCEUP/R trainning/FPCEUP_R1/r.png")
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tiagodsferreira/website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
